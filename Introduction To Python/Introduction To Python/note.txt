@@ -1,3 +1,7 @@
+Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically type-checked and garbage-collected.
+
 Install Python from official website -> https://www.python.org
 Check version in CMD -> python --version
 Run Python in CMD -> py
+
+Python file extension -> .py
