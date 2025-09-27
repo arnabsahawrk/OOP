@@ -11,3 +11,11 @@ __pycache__/
 *.swp
 *.swo
 *~
+
+# Exclude .cph folder and its contents
+.cph/
+.cph/*
+
+# Exclude input.txt and output.txt files
+input.txt
+output.txt
