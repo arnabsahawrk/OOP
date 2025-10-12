@@ -1,0 +1,13 @@
+Solve these problems using Python
+-----------------------------------------
+1. https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/G
+
+2. https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/K
+
+3. https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/M
+
+4. https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/Y
+
+5. https://codeforces.com/group/MWSDmqGsZm/contest/219856/problem/Q
+
+6. https://codeforces.com/group/MWSDmqGsZm/contest/219856/problem/V
