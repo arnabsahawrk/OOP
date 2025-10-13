@@ -1,0 +1,41 @@
+(a) Write the difference between List and Dictionary of Python.
+
+A List in Python is an ordered collection of elements that can hold any type of data. It is written inside square brackets [ ] and the elements are accessed using index numbers like 0, 1, 2, etc. Lists allow duplicate values and can be modified after creation since they are mutable.
+
+# Example
+fruits = ["apple", "banana", "mango"]
+print(fruits[1])     # Output: banana
+
+On the other hand, a Dictionary is an ordered collection that stores data in the form of key–value pairs. It is written inside curly braces { }, with each item defined as key: value. Dictionaries are also mutable, but unlike lists, their keys must be unique while the values can be duplicated.
+
+# Example
+person = {"name": "Arnab", "age": 26, "city": "Dhaka"}
+print(person["name"])  # Output: Arnab
+
+(b) Write about *args and **kwargs of Python with proper examples.
+
+In Python, *args and **kwargs are used when we don’t know in advance how many arguments will be passed to a function.
+
+The *args parameter allows a function to accept any number of positional arguments (like numbers, strings, etc.). Inside the function, all these arguments are stored as a tuple.
+
+# Example
+def add_numbers(*args):
+    print(sum(args))
+
+add_numbers(2, 3, 5)   # Output: 10
+
+Similarly, **kwargs allows a function to accept any number of keyword (named) arguments. Inside the function, they are stored as a dictionary where each key corresponds to its value.
+
+# Example
+def show_info(**kwargs):
+    for key, value in kwargs.items():
+        print(f"{key}: {value}")
+
+show_info(name="Arnab", age=26, city="Dhaka")
+
+# Output:
+# name: Arnab
+# age: 26
+# city: Dhaka
+
+
