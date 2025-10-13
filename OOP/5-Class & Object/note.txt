@@ -1,19 +1,35 @@
 self
 -----
-Refers to the current object (instance), Must always be the first parameter in instance methods, Use self to access instance variables and methods, could technically name it anything, but “self” is a strong convention
+- Refers to the current object (instance), Must always be the first parameter in instance methods, Use self to access instance variables and methods, could technically name it anything, but “self” is a strong convention
 
 method
 -------
-A method in Python is a function that belongs to an object (usually a class).
+- A method in Python is a function that belongs to an object (usually a class).
 
-It’s like a function, but it’s called using dot notation — and it automatically takes the object itself (self) as its first argument.
+- It’s like a function, but it’s called using dot notation — and it automatically takes the object itself (self) as its first argument.
 
 pass
 -----
-pass means “do nothing” — it’s just a placeholder to avoid syntax errors.
+- pass means “do nothing” — it’s just a placeholder to avoid syntax errors.
 
 constructor and __init__
 ----------------------------
-In Python, the constructor is a special method that is automatically called when an object is created — and that method is __init__. (__init__ is the constructor)
+- In Python, the constructor is a special method that is automatically called when an object is created — and that method is __init__. (__init__ is the constructor)
 
-A constructor initializes the object when it’s created. In Python, this is done using the __init__ method. can set up variables (called attributes) inside it.
+- A constructor initializes the object when it’s created. In Python, this is done using the __init__ method. can set up variables (called attributes) inside it.
+
+Class Attribute
+------------------
+- Belongs to the class itself, shared by all instances.
+
+- Defined outside __init__, directly under the class definition.
+
+- Changing it via the class affects all objects (unless overridden by an instance attribute).
+
+Instance Attribute
+---------------------
+- Belongs to each individual object (instance) of a class.
+
+- Defined inside the constructor (__init__) using self.
+
+- Each object has its own separate copy of these attributes.
