@@ -1,5 +1,3 @@
-# https://codeforces.com/group/MWSDmqGsZm/contest/219856/submission/343288182
-
 S = input()
 
 countL = 0

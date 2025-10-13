@@ -1,5 +1,3 @@
-# https://atcoder.jp/contests/arc087/submissions/70100099
-
 N = int(input())
 a = list(map(int, input().split()))
 dic = {}

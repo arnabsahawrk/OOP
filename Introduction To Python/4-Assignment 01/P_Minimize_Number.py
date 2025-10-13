@@ -1,5 +1,3 @@
-# https://codeforces.com/group/MWSDmqGsZm/contest/219774/submission/343295073
-
 N = int(input())
 A = list(map(int, input().split()))
 
