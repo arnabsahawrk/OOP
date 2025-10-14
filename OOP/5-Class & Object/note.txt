@@ -1,3 +1,5 @@
+https://docs.python.org/3.15/tutorial/classes.html
+
 self
 -----
 - Refers to the current object (instance), Must always be the first parameter in instance methods, Use self to access instance variables and methods, could technically name it anything, but “self” is a strong convention
@@ -33,3 +35,7 @@ Instance Attribute
 - Defined inside the constructor (__init__) using self.
 
 - Each object has its own separate copy of these attributes.
+
+__repr__
+-----------
+__repr__ (short for representation) is a special method that defines how object is represented as a string —
