@@ -1,0 +1,97 @@
+In Simple Word, OOP means organize a program with many objects and interactions.
+
+There are 3 types of programming paradigm: 1. Procedural Programming, 2. Object Oriented Programming, 3. Functional Programming
+
+4 pillars of OOP
+- Inheritance
+- abstraction
+- encapsulation
+- polymorphism
+
+Inheritance
+------------------
+->base class, parent class, common attribute + functionality class
+->derived class, child class, uncommon attribute + functionality class
+
+Inheritance means one class can inherit (or take) properties and behaviors from another class.
+It allows to reuse code and extend existing functionality without rewriting it.
+
+So, one class (called the child or derived class) can “inherit” all attributes and methods from another (called the parent or base class).
+
+super() -> Used to call parent class methods/constructors
+
+Multilevel Inheritance
+----------------------------
+
+This means inheritance happens in multiple layers, like a family chain — a class inherits from another class, which itself inherits from another. e.g. Grandparent → Parent → Child (Multilevel Inheritance A → B → C Grandfather → Father → Son Chain-like relationship)
+
+Multiple Inheritance
+------------------------
+This means a child class inherits from more than one parent class. e.g. Child ← Parent1 + Parent2 (Multiple Inheritance A + B → C Father + Mother → Son Child inherits from multiple parents)
+
+Encapsulation
+----------------
+Bundling data (attributes) and methods (functions) that operate on that data into a single unit — usually a class — and restricting direct access to some of the object’s internal details. Protects internal object state from accidental modification. Provides controlled access via methods (getters/setters).
+
+Access Modifiers in Python
+-----------------------------------
+Unlike C++ or Java, Python does not strictly enforce access control.
+But it provides naming conventions to indicate visibility: public, _protected, __private
+
+Public -> (self.value) Accessible from anywhere (default) (Accessible)
+
+Protected -> (self._value) Internal use only (can still be accessed, but by convention shouldn’t) (Accessible, but not recommended)
+
+Private -> (self.__value) Name mangled to prevent direct access (_ClassName__value) (AttributeError)
+
+Python follows the "consenting adults" principle. It assumes developers are mature enough to respect conventions instead of being forced by the language. So, access modifiers (_protected, __private) are not enforced like in C++ or Java — they’re signals, not locks.
+
+Abstraction
+----------------
+Abstraction hide the internal implementation details of a class or method and expose only the necessary functionality to the user. It helps in reducing complexity and increasing code maintainability.
+
+- Hiding Implementation: Users interact with the functionality without knowing how it works internally.
+
+- Providing Interface: Only essential methods or attributes are exposed for use.
+
+- Helps in Code Reusability & Maintenance: Changing internal implementation doesn’t affect the user-facing interface.
+
+- ABC → Stands for Abstract Base Class.
+
+- @abstractmethod → Declares a method that must be implemented in the subclass.
+
+- Cannot create an instance of an abstract class directly.
+
+Abstraction allows to focus on what an object does instead of how it does it, providing a cleaner, easier-to-use interface for the user.
+
+Abstract class vs Interface
+----------------------------------
+In Python, the terms abstract class and interface are often discussed in the context of object-oriented programming, even though Python doesn’t have a separate keyword for interfaces like Java or C#.
+
+Abstract Class
+-----------------
+- An abstract class can contain:
+
+  - Abstract methods (methods without implementation)
+
+  - Concrete methods (methods with implementation)
+
+  - Attributes (variables)
+
+- Cannot create an instance of an abstract class directly.
+- Subclasses must implement all abstract methods to be instantiated.
+
+Abstract classes can provide some shared behavior via concrete methods.
+
+Interface
+-----------
+- An interface is a pure abstraction: it only declares methods, but does not provide any implementation.
+
+- Python doesn’t have a dedicated interface keyword, but can simulate an interface using an abstract class with only abstract methods.
+
+- A class that implements an interface must implement all the methods declared in the interface.
+
+An interface is only a contract—it defines what methods a class should have, not how they work.
+
+* Abstract class = “some implementation + some rules”
+* Interface = “just rules, no implementation”
