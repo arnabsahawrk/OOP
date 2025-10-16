@@ -20,6 +20,10 @@ So, one class (called the child or derived class) can “inherit” all attribut
 
 super() -> Used to call parent class methods/constructors
 
+Single Inheritance
+--------------------
+a class inherits from one parent class
+
 Multilevel Inheritance
 ----------------------------
 
@@ -28,6 +32,10 @@ This means inheritance happens in multiple layers, like a family chain — a cla
 Multiple Inheritance
 ------------------------
 This means a child class inherits from more than one parent class. e.g. Child ← Parent1 + Parent2 (Multiple Inheritance A + B → C Father + Mother → Son Child inherits from multiple parents)
+
+Hybrid Inheritance
+--------------------
+Hybrid Inheritance is a combination of two or more types of inheritance in object-oriented programming.
 
 Encapsulation
 ----------------
@@ -95,3 +103,25 @@ An interface is only a contract—it defines what methods a class should have, n
 
 * Abstract class = “some implementation + some rules”
 * Interface = “just rules, no implementation”
+
+Polymorphism
+-------------------
+Polymorphism is a fundamental concept in object-oriented programming (OOP) that means “many forms”. In Python, it allows objects of different classes to be treated as objects of a common superclass, mainly by sharing the same interface (method names) while behaving differently depending on the class.
+
+- Same method name, different behavior
+
+- Simplifies code
+
+- Achieved by (Method overriding (runtime polymorphism)), (Operator overloading (compile-time polymorphism))
+
+issubclass()
+-------------------------
+issubclass(Sub, Parent) : Checks if a class is derived from another class (used for class relationships). Used to check inheritance between classes, not objects.
+
+isinstance()
+----------------
+isinstance(obj, Class) : Checks if an object is an instance of a class (or its subclass). Used to check the type of an object safely.
+
+raise NotImplementedError
+----------------------------
+Used to mark a method that must be overridden by subclasses (common in abstraction). Forces subclasses to define the missing logic — acts like a manual abstract method. raise NotImplementedError("Subclass must implement area()")

@@ -1,0 +1,27 @@
+In this module learning topics are:
+------------------------------------------
+* override and overload
+
+* method overloading and operator overloading
+  - dunder method
+  - + sign operator overload
+  - len overload
+
+* static attribute, static method, class method
+
+* python static method vs class method
+
+* getter, setter and readonly
+
+* inner function
+
+* decorator
+
+* composition, class composition
+
+* inheritance vs composition
+
+* A glimpse of:
+  - UML Diagram (Class Diagram, Use Case Diagram, Sequence Diagram, Activity Diagram etc.)
+  - Design Pattern (Singleton, Factory Builder, etc.)
+  - Architectural Pattern
