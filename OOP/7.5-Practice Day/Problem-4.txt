@@ -1,0 +1,7 @@
+Q. Write what are getter and setter with proper examples
+
+Getter: A method used to access (read) the value of a private attribute.
+
+Setter: A method used to set (update/change) the value of a private attribute.
+
+Together, they help control access to internal data — which is the heart of encapsulation.

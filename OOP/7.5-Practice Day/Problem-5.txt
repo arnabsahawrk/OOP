@@ -1,0 +1,10 @@
+Q. Explain the difference between inheritance and composition with proper examples.
+
+Inheritance: Inheritance means creating a new class (child) from an existing class (parent) so the child automatically gets all the parent’s attributes and methods.
+
+It represents an “is-a” relationship.
+Example: A Cricketer is a Person.
+
+Composition: Composition means creating a “has-a” relationship — one class contains an instance of another class inside it, rather than inheriting from it.
+
+Example: A Shop has a Product.

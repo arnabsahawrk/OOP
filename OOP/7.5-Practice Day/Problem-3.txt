@@ -1,0 +1,15 @@
+Q. Write down 4 differences between the class method and static method with proper examples.
+
+Class Method
+1. Decorator: @classmethod
+2. First Argument: Takes cls (refers to the class itself)
+3. Access: Can access or modify class variables
+4. Use Case: Used when behavior depends on the class
+
+Static Method
+1. Decorator: @staticmethod
+2. First Argument: Takes no special first argument
+3. Access: Cannot access class or instance variables directly
+4. Use Case: Used when behavior is independent of class/instance
+
+Called from: Both can be called from class or instance
