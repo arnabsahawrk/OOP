@@ -1,0 +1,20 @@
+Q: Write what is meant by operator overloading and method overriding with examples.
+
+Operator Overloading: Operator Overloading means giving special meaning to built-in operators (+, -, *, etc.) for user-defined classes.
+
+So we can use operators on objects just like with numbers or strings.
+
+Python lets us do this by defining special methods (also called “dunder” methods) such as:
+
+__add__() for +
+
+__sub__() for -
+
+__mul__() for *
+
+__str__() for print() representation
+
+Method Overriding: Method Overriding means redefining a method in a child class that already exists in its parent class.
+The child’s version replaces (or overrides) the parent’s version during runtime.
+
+It’s a key part of polymorphism and dynamic dispatch.

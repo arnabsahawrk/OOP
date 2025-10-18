@@ -1,0 +1,8 @@
+-> What is Inheritance? Explain with examples
+: When a class(derived class) inherit some of its properties and behavior from another class(parent class) it called inheritance. A class 'is a' relationship with another class. e.g. Grandparent(land) -> Father(land and house) -> Son (land, house, and car).  There are multiple ways we can inherit from another class: Single Inheritance, Multi-level inheritance, Multiple inheritance, Hybrid Inheritance. 
+
+-> What are Encapsulation and Access Modifiers? Explain with examples
+: Encapsulation means encapsulate a program and provide how and who can access our data using access modifiers. There 3 types of access modifiers: Public (can access from anywhere), Protected(can access from its class and derived class) (_), Private(can access from its class) (__).
+Unlike other languages like c++, java, etc. Python doesn't enforce strictly access modifiers means Python think there developer is more mature and respect the convention.
+
+
